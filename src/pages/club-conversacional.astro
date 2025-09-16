@@ -1,0 +1,11 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Loading from "../components/ui/loading";
+import ConversationClub from "../components/conversation-club/conversational-club";
+---
+
+<Layout>
+    <Loading client:only />
+
+    <ConversationClub client:load />
+</Layout>

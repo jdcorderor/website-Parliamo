@@ -1,0 +1,11 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Loading from "../components/ui/loading";
+import Plida from "../components/plida/plida";
+---
+
+<Layout>
+    <Loading client:only />
+
+    <Plida client:load />
+</Layout>
