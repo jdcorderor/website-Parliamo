@@ -68,11 +68,11 @@ export default function Classes() {
                             </div>
 
                             <div className="flex justify-center md:justify-end mx-0 md:mx-12 gap-4 md:gap-6">
-                                <button className="px-3 border-l-3 border-[#E1AA2C] hover:scale-105 duration-300" onClick={ () => handleViewChange(1) }>
+                                <button className="px-3 border-l-3 border-[#E1AA2C] hover:scale-105 duration-300 cursor-pointer" onClick={ () => handleViewChange(1) }>
                                     <span className="block font-montserrat text-[#E1AA2C] font-semibold text-left">Presencial</span>
                                     <span className="block text-sm font-montserrat text-left">Sede Centro Ítalo</span>
                                 </button>
-                                <button className="px-3 border-l-3 border-[#E1AA2C] hover:scale-105 duration-300" onClick={ () => handleViewChange(2) }>
+                                <button className="px-3 border-l-3 border-[#E1AA2C] hover:scale-105 duration-300 cursor-pointer" onClick={ () => handleViewChange(2) }>
                                     <span className="block font-montserrat text-[#E1AA2C] font-semibold text-left">Presencial</span>
                                     <span className="block text-sm font-montserrat text-left">Sede CEUJAP</span>
                                 </button>
@@ -106,11 +106,11 @@ export default function Classes() {
                             </div>
 
                             <div className="flex justify-center md:justify-end mx-0 md:mx-12 gap-4 md:gap-6">
-                                <button className="px-3 border-l-3 border-[#E1AA2C] hover:scale-105 duration-300" onClick={ () => handleViewChange(0) }>
+                                <button className="px-3 border-l-3 border-[#E1AA2C] hover:scale-105 duration-300 cursor-pointer" onClick={ () => handleViewChange(0) }>
                                     <span className="block font-montserrat text-[#E1AA2C] font-semibold text-left">Virtual</span>
                                     <span className="block text-sm font-montserrat text-left">Horario flexible</span>
                                 </button>
-                                <button className="px-3 border-l-3 border-[#E1AA2C] hover:scale-105 duration-300" onClick={ () => handleViewChange(2) }>
+                                <button className="px-3 border-l-3 border-[#E1AA2C] hover:scale-105 duration-300 cursor-pointer" onClick={ () => handleViewChange(2) }>
                                     <span className="block font-montserrat text-[#E1AA2C] font-semibold text-left">Presencial</span>
                                     <span className="block text-sm font-montserrat text-left">Sede CEUJAP</span>
                                 </button>
@@ -144,11 +144,11 @@ export default function Classes() {
                             </div>
 
                             <div className="flex justify-center md:justify-end mx-0 md:mx-12 gap-4 md:gap-6">
-                                <button className="px-3 border-l-3 border-[#E1AA2C] hover:scale-105 duration-300" onClick={ () => handleViewChange(0) }>
+                                <button className="px-3 border-l-3 border-[#E1AA2C] hover:scale-105 duration-300 cursor-pointer" onClick={ () => handleViewChange(0) }>
                                     <span className="block font-montserrat text-[#E1AA2C] font-semibold text-left">Virtual</span>
                                     <span className="block text-sm font-montserrat text-left">Horario flexible</span>
                                 </button>
-                                <button className="px-3 border-l-3 border-[#E1AA2C] hover:scale-105 duration-300" onClick={ () => handleViewChange(1) }>
+                                <button className="px-3 border-l-3 border-[#E1AA2C] hover:scale-105 duration-300 cursor-pointer" onClick={ () => handleViewChange(1) }>
                                     <span className="block font-montserrat text-[#E1AA2C] font-semibold text-left">Presencial</span>
                                     <span className="block text-sm font-montserrat text-left">Sede Centro Ítalo</span>
                                 </button>
