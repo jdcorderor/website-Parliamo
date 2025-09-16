@@ -45,7 +45,7 @@ export default function MainSection() {
         <section id="inscríbete" className="relative bg-white pt-2 md:pt-36">
             <div className="relative w-full">
                 <div className="absolute inset-0 z-5 top-150 md:top-80">
-                    <img src="/main/decoration.png" alt="" className="w-full h-50 md:h-auto object-cover" />
+                    <img src="/main/decoration.png" alt="" className="w-full h-50 md:h-70 object-cover" />
                 </div>
 
                 <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 md:w-[80vw] mx-auto">

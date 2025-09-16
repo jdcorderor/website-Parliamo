@@ -13,9 +13,9 @@ export default function Footer() {
 
     return (
         <section id="contacto">
-            <div className="relative w-full italian-top-border">
+            <div className="relative w-full border-t border-gray-200">
                 <div className="absolute inset-0 z-0">
-                    <img src="/footer/background.png" className="w-full h-full top-fade" />
+                    <img src="/footer/background.png" className="w-full h-full" />
                 </div>
                 
                 <div className="relative z-10 p-4 md:p-8 mx-auto">
@@ -28,7 +28,7 @@ export default function Footer() {
                         {/* Links */}
                         <div className="w-full lg:w-2/5 grid grid-cols-1 md:grid-cols-3 gap-4 mx-auto px-6 md:px-32 lg:px-0 py-12 md:py-0">
                             {links.map((link, index) => (
-                                <a key={index} href={link.href} className="text-sm text-center font-inter font-medium hover:underline transition-colors duration-200">{link.text}</a>
+                                <a key={index} href={link.href} className="text-sm text-center font-montserrat font-medium hover:underline transition-colors duration-200">{link.text}</a>
                             ))}
                         </div>
 

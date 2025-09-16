@@ -26,7 +26,7 @@ export default function ConversationClub() {
             <div className="relative w-full">
                 <div className="absolute w-full z-0">
                     <img src="/conversation-club/image1.jpg" alt="Club de Conversación" className="w-full h-90 md:h-125 object-cover" />
-                    <div className="absolute inset-0 bg-black opacity-70 pointer-events-none"></div>
+                    <div className="absolute inset-0 bg-black opacity-60 pointer-events-none"></div>
                 </div>
 
                 <div className="relative z-10 top-6 left-6">
@@ -53,7 +53,7 @@ export default function ConversationClub() {
 
                 <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 w-[90vw] md:w-[80vw] mx-auto">
                     <div className="flex flex-col px-4 py-12 md:p-10 gap-10">
-                        <h1 className="text-4xl md:text-5xl font-cardo text-[#032386] font-semibold text-center md:text-left">Il sapore dell'Italia in ogni parola e in ogni calice</h1>
+                        <h1 className="text-4xl md:text-5xl font-cardo text-[#032386] font-semibold text-center md:text-left leading-[7vh]">Il sapore dell'Italia in ogni parola e in ogni calice</h1>
                         <div className="flex flex-col gap-4">
                             <p className="md:text-xl font-montserrat text-gray-600 text-center md:text-left">Nuestro <b>Club de Conversación</b> está diseñado para que aprendas divirtiéndote en un ambiente <b>100% relajado y social</b>.</p>
                             <p className="md:text-xl font-montserrat text-gray-600 text-center md:text-left">A través de <b>dinámicas</b> entretenidas y guiadas, jugamos, debatimos y conversamos sobre temas de la vida cotidiana y la cultura italiana, logrando que hables "fácilmente" y sin presión.</p>

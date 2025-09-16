@@ -30,7 +30,7 @@ export default function HeroSection() {
                     {["/herosection/banner1.jpg", "/herosection/banner2.jpg", "/herosection/banner3.jpg", "/herosection/banner4.jpg"].map((src, index) => (
                         <SwiperSlide key={index}>
                             <img src={src} alt={`Slide ${index + 1}`} className="w-full h-100 md:h-[100%] object-cover rounded-3xl" />
-                            <div className="absolute inset-0 z-5 h-100 md:h-[100%] bg-black opacity-50 rounded-3xl pointer-events-none"></div>
+                            <div className="absolute inset-0 z-5 h-100 md:h-[100%] bg-black opacity-40 rounded-3xl pointer-events-none"></div>
                         </SwiperSlide>
                     ))}
                 </Swiper>
@@ -68,6 +68,13 @@ export default function HeroSection() {
                     </Sheet>
                 </div>
             </header>
+
+            {/* Main phrase */}
+            <div className="relative inset-0 z-10 top-15 md:top-35 flex w-[85vw] md:w-[60vw] mx-auto">
+                <h1 className="text-4xl md:text-7xl font-montserrat text-white font-semibold text-center mx-auto">
+                    Un idioma, <br /> <span className="text-gray-100">mille porte</span>
+                </h1>
+            </div>
         </section>
     );
 }

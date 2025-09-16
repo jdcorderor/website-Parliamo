@@ -39,7 +39,7 @@ export default function Classes() {
                     <img src="/classes/decoration.png" className="w-full h-70 md:h-auto object-cover" />
                 </div>
 
-                <div className="relative z-10 top-10 md:top-25 flex flex-col w-[80vw] gap-4 mx-auto">
+                <div className="relative z-10 top-10 md:top-25 flex flex-col w-[90vw] gap-4 mx-auto">
                     <h2 className="text-3xl md:text-5xl font-cardo text-[#E1AA2C] font-semibold text-center">Elija la opción que mejor se adapte a su estilo de aprendizaje.</h2>
                     <p className="text-lg md:text-2xl font-montserrat text-[#E1AA2C] font-light text-center">Ambas rutas están diseñadas para guiarle sólidamente desde el nivel A1 hasta el B1.</p>
                 </div>
@@ -68,11 +68,11 @@ export default function Classes() {
                             </div>
 
                             <div className="flex justify-center md:justify-end mx-0 md:mx-12 gap-4 md:gap-6">
-                                <button className="px-3 border-l-3 border-[#E1AA2C]" onClick={ () => handleViewChange(1) }>
+                                <button className="px-3 border-l-3 border-[#E1AA2C] hover:scale-105 duration-300" onClick={ () => handleViewChange(1) }>
                                     <span className="block font-montserrat text-[#E1AA2C] font-semibold text-left">Presencial</span>
                                     <span className="block text-sm font-montserrat text-left">Sede Centro Ítalo</span>
                                 </button>
-                                <button className="px-3 border-l-3 border-[#E1AA2C]" onClick={ () => handleViewChange(2) }>
+                                <button className="px-3 border-l-3 border-[#E1AA2C] hover:scale-105 duration-300" onClick={ () => handleViewChange(2) }>
                                     <span className="block font-montserrat text-[#E1AA2C] font-semibold text-left">Presencial</span>
                                     <span className="block text-sm font-montserrat text-left">Sede CEUJAP</span>
                                 </button>
@@ -106,11 +106,11 @@ export default function Classes() {
                             </div>
 
                             <div className="flex justify-center md:justify-end mx-0 md:mx-12 gap-4 md:gap-6">
-                                <button className="px-3 border-l-3 border-[#E1AA2C]" onClick={ () => handleViewChange(0) }>
+                                <button className="px-3 border-l-3 border-[#E1AA2C] hover:scale-105 duration-300" onClick={ () => handleViewChange(0) }>
                                     <span className="block font-montserrat text-[#E1AA2C] font-semibold text-left">Virtual</span>
                                     <span className="block text-sm font-montserrat text-left">Horario flexible</span>
                                 </button>
-                                <button className="px-3 border-l-3 border-[#E1AA2C]" onClick={ () => handleViewChange(2) }>
+                                <button className="px-3 border-l-3 border-[#E1AA2C] hover:scale-105 duration-300" onClick={ () => handleViewChange(2) }>
                                     <span className="block font-montserrat text-[#E1AA2C] font-semibold text-left">Presencial</span>
                                     <span className="block text-sm font-montserrat text-left">Sede CEUJAP</span>
                                 </button>
@@ -144,11 +144,11 @@ export default function Classes() {
                             </div>
 
                             <div className="flex justify-center md:justify-end mx-0 md:mx-12 gap-4 md:gap-6">
-                                <button className="px-3 border-l-3 border-[#E1AA2C]" onClick={ () => handleViewChange(0) }>
+                                <button className="px-3 border-l-3 border-[#E1AA2C] hover:scale-105 duration-300" onClick={ () => handleViewChange(0) }>
                                     <span className="block font-montserrat text-[#E1AA2C] font-semibold text-left">Virtual</span>
                                     <span className="block text-sm font-montserrat text-left">Horario flexible</span>
                                 </button>
-                                <button className="px-3 border-l-3 border-[#E1AA2C]" onClick={ () => handleViewChange(1) }>
+                                <button className="px-3 border-l-3 border-[#E1AA2C] hover:scale-105 duration-300" onClick={ () => handleViewChange(1) }>
                                     <span className="block font-montserrat text-[#E1AA2C] font-semibold text-left">Presencial</span>
                                     <span className="block text-sm font-montserrat text-left">Sede Centro Ítalo</span>
                                 </button>

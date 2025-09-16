@@ -37,7 +37,7 @@ export default function SlideCard({ slide }: SlideCardProps) {
       <div className={`absolute inset-0 flex flex-col bg-black/60 p-6 rounded-3xl transition-opacity duration-300 ${ visible ? "opacity-100" : "opacity-0" } md:opacity-0 md:group-hover:opacity-100`}>
         <div className="absolute inset-0 flex flex-col px-6 py-24 gap-4 pointer-events-none">
           <Quote className="w-10 h-10 text-white" />
-          <h2 className="text-2xl font-inter text-white font-light drop-shadow-lg px-8">
+          <h2 className="text-2xl font-montserrat text-white font-light drop-shadow-lg px-8">
             {slide.text}
           </h2>
         </div>

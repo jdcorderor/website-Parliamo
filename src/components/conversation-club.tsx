@@ -75,7 +75,7 @@ export default function ConversationClub() {
             <div className="relative w-full">
                 <div className="absolute w-full z-0">
                     <img src="/conversation-club/image1.jpg" alt="Club de Conversación" className="w-full h-90 md:h-125 object-cover" />
-                    <div className="absolute inset-0 bg-black opacity-70 pointer-events-none"></div>
+                    <div className="absolute inset-0 bg-black opacity-60 pointer-events-none"></div>
                 </div>
 
                 <div ref={ref} className={`relative z-10 w-[80vw] top-15 md:top-40 flex flex-col gap-4 mx-auto ${ visible ? 'slide-from-bottom' : 'opacity-0' }`}>
@@ -93,7 +93,7 @@ export default function ConversationClub() {
             </div>
 
             <div className="flex flex-col gap-4 mt-50 md:mt-110">
-                <h1 className="text-3xl md:text-5xl font-cardo text-[#032386] font-semibold text-center">Somos más que una academia.</h1>
+                <h1 className="text-3xl md:text-5xl font-cardo text-[#032386] font-semibold text-center">Somos más que una academia</h1>
 
                 <div className="md:relative mx-4">
                     <Swiper modules={[Autoplay]} autoplay={{ delay: 4000, disableOnInteraction: true }} spaceBetween={15} breakpoints={{ 1440: { slidesPerView: 4 }, 1024: { slidesPerView: 3 }, 700: { slidesPerView: 1 } }} className="mt-6 md:mt-12 px-4" >
