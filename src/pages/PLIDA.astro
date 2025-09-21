@@ -1,0 +1,11 @@
+---
+import Container from "../components/container";
+import Layout from "../layouts/Layout.astro";
+import Plida from "../components/plida/plida-page";
+---
+
+<Container client:only>
+    <Layout>
+        <Plida client:load />
+    </Layout>
+</Container>

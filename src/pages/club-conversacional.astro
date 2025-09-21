@@ -1,0 +1,11 @@
+---
+import Container from "../components/container";
+import Layout from "../layouts/Layout.astro";
+import ConversationClub from "../components/conversation-club/conversation-club-page";
+---
+
+<Container client:only>
+    <Layout>
+        <ConversationClub client:load />
+    </Layout>
+</Container>

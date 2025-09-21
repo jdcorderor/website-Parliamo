@@ -1,0 +1,23 @@
+---
+import Container from "../components/container";
+import Layout from "../layouts/Layout.astro";
+import HeroSection from "../components/herosection";
+import MainSection from "../components/main";
+import Plida from "../components/plida";
+import Community from "../components/community";
+import Classes from "../components/classes";
+import ConversationClub from "../components/conversation-club";
+import Footer from "../components/footer";
+---
+
+<Container client:only>
+	<Layout>
+		<HeroSection client:load />
+		<MainSection client:load />
+		<Plida client:load />
+		<Community client:load />
+		<Classes client:load />
+		<ConversationClub client:load />
+		<Footer client:load />
+	</Layout>
+</Container>
