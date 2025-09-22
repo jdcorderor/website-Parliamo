@@ -17,7 +17,7 @@ export default function HeroSection() {
     // Routes array
     const routes = [
         { href: "#comunidad", label: "Comunidad" },
-        { href: "#PLIDA", label: "PLIDA" },
+        { href: "/PLIDA", label: "PLIDA" },
         { href: "#clases", label: "Clases" },
         { href: "#contacto", label: "Contáctanos" },
     ]

@@ -22,10 +22,9 @@ export default function Community() {
     }, []);
     
     return (
-        <section id="comunidad" className="w-[80vw] py-16 mx-auto mt-40 md:mt-120">
+        <section id="comunidad" className="w-[80vw] py-16 mx-auto mt-35 md:mt-115">
             <div className="flex flex-col gap-4">
                 <h2 className="text-4xl md:text-6xl font-cardo text-[#032386] text-center">Nuestra comunidad</h2>
-                <p className="text-lg md:text-xl font-montserrat text-gray-600 text-center">Lorem Ipsum is simply dummy text of the printing and ...</p>
             </div>
 
             <div ref={ref} className="grid grid-cols-1 md:grid-cols-3 gap-6 py-6 md:py-12">
