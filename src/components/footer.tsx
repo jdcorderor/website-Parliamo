@@ -22,7 +22,7 @@ export default function Footer() {
                     <div className="w-full flex flex-col lg:flex-row flex-wrap items-center justify-center md:justify-between py-2 md:py-4 mx-auto">             
                         {/* Logo */}
                         <div className="md:w-1/5 md:px-12">
-                            <img src="/logo.png" alt="Parliamo Ciao" className="w-40 md:w-40 md:h-fit justify-center" />
+                            <img src="/logo-alt.png" alt="Parliamo Ciao" className="w-40 md:w-40 md:h-fit justify-center" />
                         </div>
 
                         {/* Links */}

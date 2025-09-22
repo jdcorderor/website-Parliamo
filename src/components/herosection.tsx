@@ -40,7 +40,7 @@ export default function HeroSection() {
             <header className="flex items-center justify-between p-8 md:px-20 md:py-12 z-10">
                 <div className="w-full flex items-center justify-start z-10">
                     <div className="flex-1 flex items-center gap-2">
-                        <img src="/logo-blanco.png" alt="Parliamo Ciao" className="w-20 md:w-30" />
+                        <img src="/logo-alt-blanco.png" alt="Parliamo Ciao" className="w-20 md:w-30" />
                     </div>
 
                     {/* Main menu */}
