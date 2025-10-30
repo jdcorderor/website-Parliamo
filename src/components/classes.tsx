@@ -43,7 +43,7 @@ export default function Classes() {
                 <div className="relative z-10 top-13 md:top-22 flex flex-col w-[90vw] gap-4 mx-auto">
                     <h2 className="text-3xl md:text-5xl font-cardo text-[#E1AA2C] font-semibold text-center">Elige la opción que mejor se adapte a tu estilo de aprendizaje.</h2>
                     <p className="text-base md:text-xl font-montserrat text-[#E1AA2C] font-medium text-center w-[80%] md:w-[100%] mx-auto">
-                        <i>Todos los caminos llevan a Roma</i>. Cualquier modalidad está diseñada para cursar desde el nivel A1 al B2, ayudándote a desarrollar las habilidades 
+                        <i>"Todos los caminos llevan a Roma"</i>. Cualquier modalidad está diseñada para cursar desde el nivel A1 al B2, ayudándote a desarrollar las habilidades 
                         propias de un idioma, tales como leer, hablar, escribir y escuchar. Elige la que te guste más.</p>
                 </div>
             </div>
