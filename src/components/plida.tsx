@@ -34,7 +34,7 @@ export default function Plida() {
                         ))}
                     </div>
 
-                    <div ref={ref} className="h-[215vw] md:h-[40vw] bg-[#032386]"></div>
+                    <div ref={ref} className="h-[202vw] md:h-[40vw] bg-[#032386]"></div>
                 </div>
                 
                 <div className={`${ visible ? 'slide-from-bottom' : 'opacity-0' }`}>
